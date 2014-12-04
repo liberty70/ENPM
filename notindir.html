@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ERU-Not Paylasim Merkezi</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">ENPM</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">hakkinda</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    <a href="notekle.html" class=" btn btn-success">NOT - CIKMIS SORULAR EKLE</a>
+                    <a href="notindir.html" class=" btn btn-primary">NOT - CIKMIS SORULAR INDIR</a>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Anasayfa</a>
+                    </li>
+                    <li class="active">Not - Sinavi Indir</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+        <div class="row">
+
+            <div class="col-md-6">
+                <strong>Indirmek Istedigin Notlar Filitre</strong> 
+                <div class="well">
+                  <!-- Quick search box -->
+                    <form role="form-horizontal" action="">
+                      <div class="form-group">
+                        <label>Fakulteyi sec</label>              
+                        <select id="fakulteAdi" class="col-md-6 pull-right" name="fakulteAdi">
+                            <option value="" selected="selected">Select Faculty</option>
+                            <option value="AL">Muhendislik</option>
+                            <option value="AL">Tip</option>
+                            <option value="AL">Fen Edebiyat</option>
+                            <option value="AL">Iktisad</option>
+                            <option value="AL">Eczacilik</option>
+                            <option value="AL">Ilahiyat</option>
+                          </select>               
+                      </div>
+
+                      <div class="form-group">
+                        <label>Bolumu sec</label>              
+                        <select id="fakulteAdi" class="col-md-6 pull-right" name="fakulteAdi">
+                            <option value="" selected="selected">Select Department</option>
+                            <option value="AL">Insaat</option>
+                            <option value="AL">Bilgisayar</option>
+                            <option value="AL">Malzeme</option>
+                            <option value="AL">Gida</option>
+                            <option value="AL">Endustri</option>
+                            <option value="AL">Mekatronik</option>
+                          </select>               
+                      </div>
+
+                      <div class="form-group">
+                        <label>Ders Adi</label>              
+                        <select id="fakulteAdi" class="col-md-6 pull-right" name="fakulteAdi">
+                            <option value="" selected="selected">Select Course</option>
+                            <option value="AL">Matematik</option>
+                            <option value="AL">Kimya</option>
+                            <option value="AL">Tarih</option>
+                            <option value="AL">Fizik</option>
+                            <option value="AL">Kimya</option>
+                            <option value="AL">Biology</option>
+                          </select>               
+                      </div>
+
+                      <div class="form-group">              
+                          <a href="#" class="btn btn-lg btn-success" style="width:100%">Sectiklerimden Goster</a>                  
+                      </div>
+                    </form>
+                </div> <!-- end well -->
+            </div> <!-- end col-md-6 -->
+
+
+            <div class="col-md-6">
+                <strong>Indirmek Istedigin Sorular Filitre</strong> 
+                <div class="well">
+                  <!-- Quick search box -->
+                    <form role="form-horizontal" action="">
+                      <div class="form-group">
+                        <label>Fakulteyi sec</label>              
+                        <select id="fakulteAdi" class="col-md-6 pull-right" name="fakulteAdi">
+                            <option value="" selected="selected">Select Faculty</option>
+                            <option value="AL">Muhendislik</option>
+                            <option value="AL">Tip</option>
+                            <option value="AL">Fen Edebiyat</option>
+                            <option value="AL">Iktisad</option>
+                            <option value="AL">Eczacilik</option>
+                            <option value="AL">Ilahiyat</option>
+                          </select>               
+                      </div>
+
+                      <div class="form-group">
+                        <label>Bolumu sec</label>              
+                        <select id="fakulteAdi" class="col-md-6 pull-right" name="fakulteAdi">
+                            <option value="" selected="selected">Select Department</option>
+                            <option value="AL">Insaat</option>
+                            <option value="AL">Bilgisayar</option>
+                            <option value="AL">Malzeme</option>
+                            <option value="AL">Gida</option>
+                            <option value="AL">Endustri</option>
+                            <option value="AL">Mekatronik</option>
+                          </select>               
+                      </div>
+
+                      <div class="form-group">
+                        <label>Ders Adi</label>              
+                        <select id="fakulteAdi" class="col-md-6 pull-right" name="fakulteAdi">
+                            <option value="" selected="selected">Select Course</option>
+                            <option value="AL">Matematik</option>
+                            <option value="AL">Kimya</option>
+                            <option value="AL">Tarih</option>
+                            <option value="AL">Fizik</option>
+                            <option value="AL">Kimya</option>
+                            <option value="AL">Biology</option>
+                          </select>               
+                      </div>
+
+                      <div class="form-group">              
+                          <a href="#" class="btn btn-lg btn-success" style="width:100%">Sectiklerimden Goster</a>                  
+                      </div>
+                    </form>
+                </div> <!-- end well -->
+            </div> <!-- end col-md-6 -->
+
+
+        </div> <!-- end row -->
+
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <strong>Not Adi : Mikro Islemci</strong> <br>
+                <strong>Yukleyen : Ozlem Tasdemir</strong> <br>
+                <strong>Boyut : 2 MB</strong> <br>
+                <a href="" class="btn btn-success">Hemen Indir</a>
+                
+            </div>     
+        </div>
+
+
+        <!-- Service Tabs -->
+        <hr>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul id="myTab" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="#service-one" data-toggle="tab"><i class="fa fa-tree"></i> Ozlemin Tum Notlari</a>
+                    </li>
+                    <li class=""><a href="#service-two" data-toggle="tab"><i class="fa fa-car"></i> Mikro ile ilgili Notlar</a>
+                    </li>
+                    <li class=""><a href="#service-three" data-toggle="tab"><i class="fa fa-support"></i> Mikro ile ilgili sinavlar</a>
+                    </li>
+                    <li class=""><a href="#service-four" data-toggle="tab"><i class="fa fa-database"></i> Ozlemin Paylastigi Sinavlar</a>
+                    </li>
+                </ul>
+
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade active in" id="service-one">
+                        <h4>Notlar</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupidi in. At quia quaerat asperiores.</p>
+                    </div>
+                    <div class="tab-pane fade" id="service-two">
+                        <h4>Sinavlar</h4>
+                        <p>Lorem ipsumiunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                    </div>
+                    <div class="tab-pane fade" id="service-three">
+                        <h4>benzer notlar</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupidipiores magni</p>
+                    </div>
+                    <div class="tab-pane fade" id="service-four">
+                        <h4>Benzer sinavlar</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; ERU-Not Paylasim Merkezi 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+
+</body>
+
+</html>
